@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="servlet-books-dao:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="servlet-books-dao-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="servlet-books-dao:war exploded" />
+    </root>
+  </artifact>
+</component>
