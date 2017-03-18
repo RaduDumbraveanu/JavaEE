@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title of the document</title>
+</head>
+
+<body>
+<table>
+    <tr th:each="book : ${books}">
+        <td th:text="${book.id}"></td>
+        <td th:text="${book.title}"></td>
+        <td><span th:each="author : ${book.authors}" th:text="${author}"></span></td>
+    </tr>
+</table>
+</body>
+
+</html>
